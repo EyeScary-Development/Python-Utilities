@@ -25,24 +25,19 @@ while slmht > 0:
       slmht=slmht-attack
       print("you attacked the slime. It's health is now:", slmht)
 
-  else:
-
-    if choice == "heal":
-      if helhelt >= 25:
-        print("You cannot heal at this high health")
-      else:
-        plhth += ha
-        print("You healed", ha, "health. You now have", plhth, "health")
+  elif choice == "heal":
+    if helhelt >= 25:
+      print("You cannot heal at this high health")
     else:
-
-
-      if choice=="run":
-        print("You ran away, seriously?")
+      plhth += ha
+      print("You healed", ha, "health. You now have", plhth, "health")
+  elif choice == "run":
+    print("You ran away, seriously?")
 
   if slmatkon == 1:
     plhth -= slmatk
     print("The slime attacked you! you have", plhth, "health")
 
   if slmht <= 1:
-    print("The slime has died")
+    print("The slime is die")
     break
