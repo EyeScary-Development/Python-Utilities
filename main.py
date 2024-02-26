@@ -13,9 +13,9 @@ elif command == "triangle area finder":
   import triongle
 elif command == "time": 
     import clock
-elif: command == "2d area calculator":
+elif command == "2d area calculator":
   import arcalc
-elif: command == "3d volume calculator":
+elif command == "3d volume calculator":
   import volcalc
 elif command == "time":
   import clock
