@@ -1,24 +1,48 @@
-smht=120
-print("the health of the slime is", smht, "hp do you fight or run?")
-attack1=input("attack or run? ")
+import random
+slmht=12
+slmatk=1
+slmdef=1
+plhth=25
+platk=2
+pldef=2
+ha=3
 
-if attack1=="attack" :
-    smht=60
-    print("the health of the slime is", smht, "hp do you fight or run?")
-    attack2=input("attack or run? ")
-    if attack2=="attack" :
-        smht=0
-        print("the slime ded")
-        print("I am python god if work")
+
+while slmht > 0:
+  print("The slime has", slmht, "health, you have", plhth, "Do you attack, run or heal")
+
+  choice=input("attack, run or heal?: ")
+  slmatkon=random.randint(0,1)
+  helhelt= plhth+ha
+  dubistmiss=random.randint(0,1)
+  attack=random.randint(1,2)
+
+
+  if choice == "attack":
+    if dubistmiss == "1":
+      print("You missed! the health of the slime is:", slmht)
     else:
-            print("you ran?! Now?")
-else:
-        print("you ran, bruh")
+      slmht=slmht-attack
+      print("you attacked the slime. It's health is now:", slmht)
+
+  else:
+
+    if choice == "heal":
+      if helhelt >= 25:
+        print("You cannot heal at this high health")
+      else:
+        plhth += ha
+        print("You healed", ha, "health. You now have", plhth, "health")
+    else:
 
 
-question=input("do you want to return to home? y/n: ")
+      if choice=="run":
+        print("You ran away, seriously?")
 
-if question == "y":
-  import main
-else:
-  print("quitting...")
+  if slmatkon == 1:
+    plhth -= slmatk
+    print("The slime attacked you! you have", plhth, "health")
+
+  if slmht <= 1:
+    print("The slime has died")
+    break
