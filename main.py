@@ -1,5 +1,6 @@
 print("Welcome to python utilities. our apps:")
 print("painted cube solving tool")
+print("calculator")
 print("triangle area finder")
 print("slime fighter(game)")
 print("time (10 second sample of the date and time)")
@@ -20,5 +21,7 @@ elif command == "3d volume calculator":
   import volcalc
 elif command == "dictionary":
   import diction
+elif command == "Calculator" or command == "calculator":
+  import calculator
 else:
       import pidms
