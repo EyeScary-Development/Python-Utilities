@@ -17,5 +17,7 @@ elif: command == "2d area calculator":
   import arcalc
 elif: command == "3d volume calculator":
   import volcalc
+elif command == "time":
+  import clock
 else:
       import pidms
