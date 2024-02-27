@@ -40,4 +40,8 @@ while slmht > 0:
 
   if slmht <= 1:
     print("The slime is die")
-    break
+    command=input("return home? y/n: ")
+    if command == "y":
+      import main
+    else:
+      print(quitting...)
