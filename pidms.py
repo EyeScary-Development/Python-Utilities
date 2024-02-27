@@ -37,7 +37,7 @@ while slmht > 0:
     if command == "y":
       import main
     else:
-      print(quitting...)
+      print("quitting...")
 
 
   if slmatkon == 1:
@@ -50,7 +50,7 @@ while slmht > 0:
     if command == "y":
       import main
     else:
-      print(quitting...)
+      print("quitting...")
 
   if slmht <= 1:
     print("The slime is die")
@@ -58,4 +58,4 @@ while slmht > 0:
     if command == "y":
       import main
     else:
-      print(quitting...)
+      print("quitting...")
