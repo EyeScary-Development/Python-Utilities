@@ -972,6 +972,182 @@ elif query == "BRB":
     print("BRB")
     print()
     print("Be Right Back, used to indicate that the speaker will briefly leave but intends to return soon")
+    print("Hello")
+    print()
+    print("Used when meeting or greeting someone")
+elif query == "cat":
+    print("Cat")
+    print()
+    print("A small carnivorous animal with fur, four legs and claws, kept as a pet or used to catch mice")
+elif query == "dog":
+    print("Dog")
+    print()
+    print("A small or large sized carnivorous animal with fur, four legs and claws as well as an acute sense of smell")
+elif query == "pet:":
+    print("Pet")
+    print()
+    print("A tame or domesticated animal")
+elif query == "car":
+    print("Car")
+    print()
+    print("A vehicle with 4 wheels that is propelled not by human force and is able to travel on roads")
+elif query == "truck":
+    print("Truck")
+    print()
+    print("A large, heavy road vehicle designed to carry heavy loads and cargo")
+elif query == "etc":
+    print("ETC")
+    print()
+    print("Et Cetera")
+elif query == "e.g.":
+    print("E.G.")
+    print()
+    print("For Example")
+elif query == "i.e.":
+    print("I.E.")
+    print()
+    print("That Is")
+elif query == "asap":
+    print("ASAP")
+    print()
+    print("As soon as possible")
+elif query == "omg":
+    print("OMG")
+    print()
+    print("Oh my god")
+elif query == "lol":
+    print("LOL")
+    print()
+    print("Laugh out loud")
+elif query == "btw":
+    print("BTW")
+    print()
+    print("By the way")
+elif query == "brb":
+    print("BRB")
+    print()
+    print("Be right back")
+elif query == "ttyl":
+    print("TTYL")
+    print()
+    print("Talk to you later")
+elif query == "afaik":
+    print("AFAIK")
+    print()
+    print("As far as I know")
+elif query == "fwiw":
+    print("FWIW")
+    print()
+    print("For what it's worth")
+elif query == "imho":
+    print("IMHO")
+    print()
+    print("In my humble opinion")
+elif query == "tl;dr":
+    print("TL;DR")
+    print()
+    print("Too long; didn't read")
+elif query == "yolo":
+    print("YOLO")
+    print()
+    print("You only live once")
+elif query == "diy":
+    print("DIY")
+    print()
+    print("Do it yourself")
+elif query == "faq":
+    print("FAQ")
+    print()
+    print("Frequently asked questions")
+elif query == "vip":
+    print("VIP")
+    print()
+    print("Very important person")
+elif query == "ps":
+    print("PS")
+    print()
+    print("Postscript")
+elif query == "aka":
+    print("AKA")
+    print()
+    print("Also known as")
+elif query == "q&a":
+    print("Q&A")
+    print()
+    print("Question and answer")
+elif query == "pc":
+    print("PC")
+    print()
+    print("Personal computer")
+elif query == "laptop":
+    print("Laptop")
+    print()
+    print("A portable computer")
+elif query == "tv":
+    print("TV")
+    print()
+    print("Television")
+elif query == "wifi":
+    print("WiFi")
+    print()
+    print("Wireless fidelity")
+elif query == "usb":
+    print("USB")
+    print()
+    print("Universal serial bus")
+elif query == "html":
+    print("HTML")
+    print()
+    print("Hypertext markup language")
+elif query == "pdf":
+    print("PDF")
+    print()
+    print("Portable document format")
+elif query == "jpg":
+    print("JPG")
+    print()
+    print("Joint Photographic Experts Group")
+elif query == "gif":
+    print("GIF")
+    print()
+    print("Graphics Interchange Format")
+elif query == "png":
+    print("PNG")
+    print()
+    print("Portable Network Graphics")
+elif query == "txt":
+    print("TXT")
+    print()
+    print("Text file")
+elif query == "doc":
+    print("DOC")
+    print()
+    print("Microsoft Word document")
+elif query == "docx":
+    print("DOCX")
+    print()
+    print("Microsoft Word Open XML document")
+elif query == "xls":
+    print("XLS")
+    print()
+    print("Microsoft Excel spreadsheet")
+elif query == "xlsx":
+    print("XLSX")
+    print()
+    print("Microsoft Excel Open XML spreadsheet")
+elif query == "ppt":
+    print("PPT")
+    print()
+    print("Microsoft PowerPoint presentation")
+elif query == "pptx":
+    print("PPTX")
+    print()
+    print("Microsoft PowerPoint Open XML presentation")
+elif query == "jpeg":
+    print("JPEG")
+    print()
+    print("Joint Photographic Experts Group")
+
 else:
     print("Error, you broke the dictionary (jk we only have like 200 words atm so we were probably just too lazy to add your word)")
 
