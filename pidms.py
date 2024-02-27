@@ -33,10 +33,24 @@ while slmht > 0:
       print("You healed", ha, "health. You now have", plhth, "health")
   elif choice == "run":
     print("You ran away, seriously?")
+    command=input("return home? y/n: ")
+    if command == "y":
+      import main
+    else:
+      print(quitting...)
+
 
   if slmatkon == 1:
     plhth -= slmatk
     print("The slime attacked you! you have", plhth, "health")
+
+  if plhth <= 1:
+    print("the you is die")
+    command=input("return home? y/n: ")
+    if command == "y":
+      import main
+    else:
+      print(quitting...)
 
   if slmht <= 1:
     print("The slime is die")
