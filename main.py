@@ -7,7 +7,6 @@ print("time (10 second sample of the date and time)")
 print("2d area calculator")
 print("3d volume calculator")
 print("dictionary")
-print("pittab encouragement")
 command=input("which app do you want to use? ")
 
 if command == "painted cube solving tool":
@@ -24,7 +23,5 @@ elif command == "dictionary":
   import diction
 elif command == "Calculator" or command == "calculator":
   import calculator
-elif command == "pittab encouragement":
-  import Pittab
 else:
       import pidms
