@@ -14,7 +14,6 @@ while slmht > 0:
   choice=input("attack, run or heal?: ")
   slmatkon=random.randint(0,1)
   helhelt= plhth+ha
-  dubistmiss=random.randint(0,1)
   attack=random.randint(1,2)
 
 
