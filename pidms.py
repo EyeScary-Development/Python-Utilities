@@ -19,11 +19,8 @@ while slmht > 0:
 
 
   if choice == "attack":
-    if dubistmiss == "1":
-      print("You missed! the health of the slime is:", slmht)
-    else:
-      slmht=slmht-attack
-      print("you attacked the slime. It's health is now:", slmht)
+    slmht=slmht-attack
+    print("you attacked the slime. It's health is now:", slmht)
 
   elif choice == "heal":
     if helhelt >= 25:
