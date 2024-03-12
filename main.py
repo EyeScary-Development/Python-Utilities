@@ -7,6 +7,8 @@ print("time (10 second sample of the date and time)")
 print("2d area calculator")
 print("3d volume calculator")
 print("dictionary")
+print("random number generator")
+print("unit converter (miles to kilometers, kilometers to miles)")
 command=input("which app do you want to use? ")
 
 if command == "painted cube solving tool":
@@ -23,5 +25,9 @@ elif command == "dictionary":
   import diction
 elif command == "Calculator" or command == "calculator":
   import calculator
+elif command == "random number generator":
+  import radnom
+elif command == "unit converter":
+  import uncon
 else:
       import pidms
