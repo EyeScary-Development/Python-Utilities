@@ -7,7 +7,8 @@ print("time (10 second sample of the date and time)")
 print("2d area calculator")
 print("3d volume calculator")
 print("dictionary")
-command=input("which app do you want to use? ")
+print("BadSorter")
+command=input("which app do you want to use? ").lower()
 
 if command == "painted cube solving tool":
   import paintedcubesolver
@@ -21,7 +22,9 @@ elif command == "3d volume calculator":
   import volcalc
 elif command == "dictionary":
   import diction
-elif command == "Calculator" or command == "calculator":
+elif command == "calculator":
   import calculator
+elif command == "badsorter":
+  import BadSorter
 else:
-      import pidms
+  import pidms
